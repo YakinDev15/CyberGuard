@@ -1,0 +1,221 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #080d16;
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+}
+
+.container {
+    width: 100%;
+    max-width: 650px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+
+.logo span {
+    color: #00f5a0;
+}
+
+.subtitle {
+    color: #00f5a0;
+    font-size: 11px;
+    letter-spacing: 4px;
+    margin-top: 10px;
+}
+
+.security-card {
+    background: #111a29;
+    border: 1px solid #1d3445;
+    border-radius: 20px;
+    padding: 40px 35px;
+    box-shadow: 0 0 35px rgba(0, 245, 160, 0.08);
+}
+
+.shield {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #8998aa;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: #c8d5e3;
+}
+
+.password-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 35px;
+}
+
+.password-box input {
+    flex: 1;
+    min-width: 0;
+    background: #080f1b;
+    border: 1px solid #294153;
+    border-radius: 10px;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    outline: none;
+}
+
+.password-box input:focus {
+    border-color: #00f5a0;
+    box-shadow: 0 0 10px rgba(0, 245, 160, 0.15);
+}
+
+.password-box button {
+    background: #00f5a0;
+    color: #07130f;
+    border: none;
+    border-radius: 10px;
+    padding: 0 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.password-box button:hover {
+    background: #00c982;
+    transform: translateY(-2px);
+}
+
+.strength-section {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.strength-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+#strengthText {
+    color: #00f5a0;
+    font-weight: bold;
+}
+
+.progress-bar {
+    height: 9px;
+    background: #253346;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#strengthBar {
+    width: 0%;
+    height: 100%;
+    background: #00f5a0;
+    border-radius: 20px;
+    transition: width 0.4s ease;
+}
+
+#strengthPercentage {
+    text-align: right;
+    color: #8998aa;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.requirements {
+    text-align: left;
+    background: #0b1320;
+    border: 1px solid #1d3445;
+    border-radius: 12px;
+    padding: 22px;
+}
+
+.requirements h3 {
+    font-size: 16px;
+    margin-bottom: 18px;
+    color: #00f5a0;
+}
+
+.requirements p {
+    font-size: 13px;
+    color: #8998aa;
+    margin-bottom: 14px;
+    transition: 0.3s;
+}
+
+.requirements p:last-child {
+    margin-bottom: 0;
+}
+
+.requirements p.valid {
+    color: #00f5a0;
+}
+
+#securityMessage {
+    margin-top: 22px;
+    padding: 14px;
+    border-radius: 10px;
+    background: #0b1320;
+    color: #8998aa;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+footer {
+    margin-top: 25px;
+    color: #59697b;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 480px) {
+    .security-card {
+        padding: 30px 20px;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    .password-box {
+        flex-wrap: wrap;
+    }
+
+    .password-box button {
+        min-height: 45px;
+    }
+}
+
