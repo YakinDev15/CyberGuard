@@ -34,6 +34,8 @@ Ziel dieses Projekts ist es, die Grundlagen der Webentwicklung praktisch anzuwen
 
 5. Das Projekt wird im Browser geöffnet.
 
-## Online-Demo
+## Live Demo
 
-Die Online-Version wird über GitHub Pages bereitgestellt.
+Hier kannst du CyberGuard direkt ausprobieren:
+
+[CyberGuard – Live Demo](https://yakindev15.github.io/CyberGuard/)
